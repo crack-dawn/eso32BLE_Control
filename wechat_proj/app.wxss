@@ -1,0 +1,16 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.menu{
+    display: flex; /*竖直|水平方向*/
+    flex-direction: row; /*水平排列方向*/
+    justify-content: space-around; /*横轴排列方式*/
+    align-content: space-around; /*纵轴排列方式*/
+}

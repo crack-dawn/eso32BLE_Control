@@ -1,0 +1,13 @@
+{
+    "EIDE.SerialPortMonitor.BaudRate": 115200,
+    "files.associations": {
+        "arduino.h": "c",
+        "led.h": "c",
+        "*.tcc": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    },
+    "git.ignoreLimitWarning": true,
+    "idf.portWin": "COM10"
+}

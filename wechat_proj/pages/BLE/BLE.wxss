@@ -1,0 +1,20 @@
+
+.contentview {
+    margin: 0 10px;
+    }
+     
+    .button {
+    margin: 5px;
+    }
+     
+    .myview{
+      height:200px;
+      word-break:break-all;/* 自动换行 */
+    }
+    
+    .txt {
+       word-break:break-all;/* 自动换行 */
+       white-space: normal; 
+       -webkit-line-clamp: 3;
+   }
+   

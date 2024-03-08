@@ -1,0 +1,28 @@
+<view class="contentview">
+ 
+   <text>调试信息：{{info}}
+   </text>
+
+ <button type="primary" class="button" bindtap="BLEInit">初始化蓝牙</button>
+
+ <view class="section">
+    <text class="txt" >
+        接收到的信息：{{rx}} 
+        发送出的信息：{{tx}}
+    </text>
+ <input placeholder='请输入要发送的信息' bindinput='getmsg'/>
+ </view>
+
+
+
+ <button type="primary" class="button" bindtap="send">微信发送消息</button>
+ <button type="primary" class="button" bindtap="BLEDisconnect">断开蓝牙设备</button>
+
+<view class = "menu">
+ <button type="primary" class="button"   >温度：{{T}}摄氏度</button> 
+ <button type="primary" class="button"   >湿度：{{H}}%</button>
+</view>
+ <button type="primary" class="button" bindtap="button_function" data-my="@6">开灯</button>
+ <button type="primary" class="button" bindtap="button_function" data-my="@1">关灯</button>
+</view>
+
